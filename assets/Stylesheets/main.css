@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom Styles*/
+body {
+	background: #fdf5e6;
+	color: #003333;
+	font-family: "Rokkitt", Helvetica, sans-serif;
+}
+
+/*======== Typography ==========*/
+h1, h2, h3, h4, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  line-height: 44px;
+
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+  line-height: 44px;
+
+}
+h4 {
+  font-size: 18px;
+}
+
+.experience {
+	list-style-type: square;
+}
+
+.sub-experience {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+/*======= Grid ========*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.grid,
+.col-1-2,
+.col-1-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-2,
+.col-1-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.col-1-3 {
+	width: 33.33%;
+}
+
+/*========= Links =========*/
+a {
+  color: #003333;
+  text-decoration: none;
+}
+h1 a {
+	color: #fdf5e6;
+}
+a:hover {
+  color: #edc951;
+}
+
+a img:hover {
+	opacity: 0.6;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+
+/*========= Header ===========*/
+
+.logo {
+  : #f1e8ca;
+  background: linear-gradient(#003333, #7f9999);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 70px 0 70px 0;
+}
+
+.container img
+{
+	border-radius: 50%;
+	height: 130px;
+  	margin: -66px 30px 0;
+  	vertical-align: top;
+}
+.navbar-default {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #003333;
+}
+
+/*========== Contact ===========*/
+
+.navbar-contact {
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.navbar-contact img {
+	position: relative;
+	border-radius: 50%;
+	height: 50px;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+
+
