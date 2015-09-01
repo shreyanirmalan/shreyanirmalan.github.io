@@ -49,7 +49,7 @@ table {
 /*Custom Styles*/
 body {
 	background: #fdf5e6;
-	color: #003333;
+	color: #00004c;
 	font-family: "Rokkitt", Helvetica, sans-serif;
 }
 
@@ -125,7 +125,7 @@ h4 {
 
 /*========= Links =========*/
 a {
-  color: #003333;
+  color: #00004c;
   text-decoration: none;
 }
 h1 a {
@@ -147,7 +147,7 @@ p a {
 
 .logo {
   : #f1e8ca;
-  background: linear-gradient(#003333, #7f9999);
+  background: linear-gradient(#00004c, #9999b7);
   text-align: center;
   font-size: 48px;
   font-weight: 100;
@@ -168,7 +168,7 @@ p a {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-  border-bottom: 4px solid #003333;
+  border-bottom: 4px outset #00004c;
 }
 
 /*========== Contact ===========*/
